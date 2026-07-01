@@ -50,6 +50,6 @@ system("ffmpeg -framerate 30 \
 -pix_fmt yuv420p \
 -movflags +faststart \
 ../videoout/h.mp4")
-system("rm -r ../imageout/*")
+#system("rm -r ../imageout/*")
 
 #system("rm -r ../dataout/*")
